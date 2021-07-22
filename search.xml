@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>hexo使用徽标</title>
+      <link href="/post/709fbc11.html"/>
+      <url>/post/709fbc11.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于徽标"><a href="#关于徽标" class="headerlink" title="关于徽标"></a>关于徽标</h2><p>1.徽标分为左右<br>官网 <a href="https://shields.io/">https://shields.io/</a><br><a href="http://champyin.com/2019/10/05/github%E9%A1%B9%E7%9B%AE%E5%BE%BD%E6%A0%87/">http://champyin.com/2019/10/05/github项目徽标/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> hexo魔改 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>清除小程序button默认样式</title>
+      <link href="/post/1996b603.html"/>
+      <url>/post/1996b603.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="清除小程序button默认样式"><a href="#清除小程序button默认样式" class="headerlink" title="清除小程序button默认样式"></a>清除小程序button默认样式</h3><h4 id="html"><a href="#html" class="headerlink" title="html"></a>html</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;button class=&quot;user_module clearBtncss&quot;&gt;</span><br><span class="line">&lt;text class=&quot;userIamge t-icon&quot;&gt;&lt;/text&gt;</span><br><span class="line">&lt;text class=&quot;userText&quot;&gt;确认&lt;/text&gt;</span><br><span class="line">&lt;/button&gt;</span><br></pre></td></tr></table></figure><h4 id="css"><a href="#css" class="headerlink" title="css"></a>css</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">.clearBtncss&#123;</span><br><span class="line">margin:0;</span><br><span class="line">padding: 0;</span><br><span class="line">line-height: 1;</span><br><span class="line">background-color: #FFFFFF;</span><br><span class="line">&#125;</span><br><span class="line">.clearBtncss::after&#123;</span><br><span class="line">    position: unset !important;</span><br><span class="line">    border: unset;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小程序 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 微信小程序 </tag>
+            
+            <tag> 小程序 </tag>
+            
+            <tag> uniapp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Butterfly基础配置</title>
+      <link href="/post/4d6b513d.html"/>
+      <url>/post/4d6b513d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="搜索系统"><a href="#搜索系统" class="headerlink" title="搜索系统"></a>搜索系统</h1><p>安装本地搜索<br>安裝 hexo-generator-search(<a href="https://github.com/wzpan/hexo-generator-search">https://github.com/wzpan/hexo-generator-search</a>)<br>npm install hexo-generator-search –save</p><p>C:\Windows\System32\drivers\etc\hosts<br><a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a></p><p>hexo-abbrlink<br>可以把链接permalink转为数字的插件，配置容易，生成时自动转为数字。<br>npm install hexo-abbrlink –save</p><p>npm install hexo-deployer-git –save</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Butterfly </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo搭建遇到的问题</title>
+      <link href="/post/8e9a1d29.html"/>
+      <url>/post/8e9a1d29.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="更换主题后报错"><a href="#更换主题后报错" class="headerlink" title="更换主题后报错"></a>更换主题后报错</h3><blockquote><p>extends includes/layout.pug block content include includes/recent-posts.pug include</p></blockquote><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法:"></a>解决方法:</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>div滚动到底部加载更多</title>
+      <link href="/post/15b97596.html"/>
+      <url>/post/15b97596.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>监听区域滚动的scroll事件，计算</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">scroll.clientHeight  //滚动区域高度</span><br><span class="line">scroll.scrollTop  //当前滚动位置</span><br><span class="line">scroll.scrollHeight //整个滚动区域高度</span><br><span class="line"></span><br><span class="line">// 滚动区域高度 + 当前滚动位置 === 整个滚动区域高度</span><br><span class="line">scroll.clientHeight + scroll.scrollTop === scroll.scrollHeight</span><br></pre></td></tr></table></figure><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;banner_top_right&quot; id=&quot;scrollList&quot;&gt;</span><br><span class="line">&lt;div class=&quot;mod_course_list&quot; id=&quot;mod_list&quot;&gt;</span><br><span class="line">&lt;ul class=&quot;course_list&quot; id=&quot;m_list&quot;&gt;&lt;/ul&gt;</span><br><span class="line">&lt;div class=&quot;more_btn&quot;&gt;</span><br><span class="line"> &lt;span id=&quot;more_course&quot;&gt;更多视频&lt;/span&gt;</span><br><span class="line">&lt;/div&gt;    </span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure><h1 id="js代码"><a href="#js代码" class="headerlink" title="js代码"></a>js代码</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//滑动加载更多</span></span><br><span class="line"><span class="keyword">const</span> scroll = <span class="built_in">document</span>.getElementById(<span class="string">&#x27;scrollList&#x27;</span>);</span><br><span class="line"></span><br><span class="line">scrollDom.onscroll = <span class="function">() =&gt;</span> &#123;</span><br><span class="line"><span class="keyword">if</span> (scroll.clientHeight + <span class="built_in">parseInt</span>(scroll.scrollTop) === scroll.scrollHeight) </span><br><span class="line">&#123;</span><br><span class="line">pageIndex++; <span class="comment">//当前页数+1</span></span><br><span class="line"><span class="comment">//如果当前页数大于总页数</span></span><br><span class="line"><span class="keyword">if</span> (pageIndex &gt; totalPage) </span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">&quot;more_course&quot;</span>).innerText = <span class="string">&quot;暂无更多&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">        <span class="comment">//调用分页函数</span></span><br><span class="line">        init(pageIndex, <span class="number">10</span>);</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>init 函数参考<br><a href="https://www.huyw96.com/post/fa5290e.html">https://www.huyw96.com/post/fa5290e.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C# Ajax ashx DataTable 下拉加载 分页</title>
+      <link href="/post/fa5290e.html"/>
+      <url>/post/fa5290e.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Html代码："><a href="#Html代码：" class="headerlink" title="Html代码："></a>Html代码：</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">首先在前台页面引用jquery：</span><br><span class="line">&lt;script src=<span class="string">&quot;../js/jquery.min.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">需要放入的html</span><br><span class="line">&lt;div id=<span class="string">&quot;m_list&quot;</span>&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure><h1 id="ajax代码："><a href="#ajax代码：" class="headerlink" title="ajax代码："></a>ajax代码：</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    $(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">let</span> pageIndex = <span class="number">1</span>;<span class="comment">//当前页面</span></span><br><span class="line">        <span class="keyword">let</span> pagetotal = $(<span class="string">&quot;.dataNums&quot;</span>).text(); <span class="comment">//数据总数</span></span><br><span class="line">        <span class="keyword">let</span> totalPage = <span class="built_in">Math</span>.ceil(pagetotal / <span class="number">10</span>); <span class="comment">//总页数，一页10条</span></span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">init</span>(<span class="params">pageIndex, pageSize</span>) </span>&#123;</span><br><span class="line">            $.ajax(&#123;</span><br><span class="line">                <span class="attr">type</span>: <span class="string">&quot;get&quot;</span>,</span><br><span class="line">                <span class="attr">url</span>: <span class="string">&quot;../submit_ajax.ashx?action=getList&amp;page_index=&quot;</span> + pageIndex + <span class="string">&quot;&amp;page_size=&quot;</span> + pageSize,</span><br><span class="line">                <span class="attr">datatype</span>: <span class="string">&quot;json&quot;</span>,</span><br><span class="line">                <span class="attr">timeout</span>: <span class="number">8000</span>,</span><br><span class="line">                <span class="attr">success</span>: <span class="function"><span class="keyword">function</span> (<span class="params">data, textstatus</span>) </span>&#123;</span><br><span class="line">                    <span class="keyword">var</span> jsonData = <span class="built_in">JSON</span>.parse(data);</span><br><span class="line"></span><br><span class="line">                    <span class="keyword">var</span> str = <span class="string">&quot;&quot;</span>;</span><br><span class="line">                    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; jsonData.length; i++) &#123;</span><br><span class="line">                        str += <span class="string">&quot;&lt;div class=\&quot;vmd\&quot;&gt;&quot;</span>;</span><br><span class="line">                        str += <span class="string">&quot;&lt;span class=\&quot;video_id\&quot;&gt;&quot;</span> + jsonData[i][<span class="string">&quot;id&quot;</span>] + <span class="string">&quot;&lt;/span&gt;&quot;</span>;</span><br><span class="line">                        str += <span class="string">&quot;&lt;div class=\&quot;vmd_title\&quot;&gt;&quot;</span>;</span><br><span class="line">                        str += <span class="string">&quot;&lt;h3&gt;&lt;a href=\&quot;m_curriculum_details/show-&quot;</span> + jsonData[i][<span class="string">&quot;id&quot;</span>] + <span class="string">&quot;.html\&quot; class=\&quot;vmd_title_a\&quot;&gt;&quot;</span> + jsonData[i][<span class="string">&quot;title&quot;</span>] + <span class="string">&quot;&lt;/a&gt;&lt;/h3&gt;&quot;</span>;</span><br><span class="line">                        str += <span class="string">&quot;&lt;div class=\&quot;vmd_icon\&quot;&gt;&quot;</span>;</span><br><span class="line">                        str += <span class="string">&quot;&lt;label&gt;&lt;i class=\&quot;fa fa-book\&quot;&gt;&lt;/i&gt;&quot;</span> + jsonData[i][<span class="string">&quot;nums&quot;</span>] + <span class="string">&quot;&lt;/label&gt;&quot;</span>;</span><br><span class="line">                        str += <span class="string">&quot;&lt;label&gt;&lt;i class=\&quot;fa fa-eye\&quot;&gt;&lt;/i&gt;&quot;</span> + jsonData[i][<span class="string">&quot;click&quot;</span>] + <span class="string">&quot;&lt;/label&gt;&quot;</span>;</span><br><span class="line">                        str += <span class="string">&quot;&lt;/div&gt;&quot;</span>;</span><br><span class="line">                        str += <span class="string">&quot;&lt;/div&gt;&quot;</span>;</span><br><span class="line">                        str += <span class="string">&quot;&lt;/div&gt;&quot;</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    $(<span class="string">&quot;#m_list&quot;</span>).append(str);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//页面初始加载调用</span></span><br><span class="line">        init(pageIndex, <span class="number">10</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//当滚动到屏幕最下面触发</span></span><br><span class="line">        $(<span class="built_in">window</span>).scroll(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">            <span class="keyword">var</span> windowScrollY = <span class="built_in">window</span>.scrollY;            <span class="comment">// 当前滚动条top值</span></span><br><span class="line">            <span class="keyword">var</span> windowInnerH = <span class="built_in">window</span>.innerHeight;         <span class="comment">// 设备窗口的高度</span></span><br><span class="line">            <span class="keyword">var</span> bodyScrollH = <span class="built_in">document</span>.body.scrollHeight;  <span class="comment">// body总高度</span></span><br><span class="line">            <span class="keyword">if</span> (windowScrollY + windowInnerH == bodyScrollH) &#123;</span><br><span class="line">                <span class="comment">//页数+1</span></span><br><span class="line">                pageIndex++;</span><br><span class="line">                <span class="comment">//如果当前页数大于总页数</span></span><br><span class="line">                <span class="keyword">if</span> (pageIndex &gt; totalPage) &#123;</span><br><span class="line">                    <span class="built_in">console</span>.log(<span class="string">&quot;加载完成&quot;</span>);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span> &#123;</span><br><span class="line">                    init(pageIndex, <span class="number">10</span>);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><h1 id="submit-ajax-ashx添加getList"><a href="#submit-ajax-ashx添加getList" class="headerlink" title="submit_ajax.ashx添加getList"></a>submit_ajax.ashx添加getList</h1><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">getList</span>(<span class="params">HttpContext context</span>)</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">int</span> page_size = DTRequest.GetQueryInt(<span class="string">&quot;page_size&quot;</span>);</span><br><span class="line"><span class="built_in">int</span> page_index = DTRequest.GetQueryInt(<span class="string">&quot;page_index&quot;</span>);</span><br><span class="line">           </span><br><span class="line">   DataTable dt = <span class="keyword">new</span> BLL.course().GetList(page_index, page_size);</span><br><span class="line">   <span class="built_in">string</span> json = SerializationHelper.ToJsonString(dt);</span><br><span class="line">   context.Response.Write(json);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="bll层代码："><a href="#bll层代码：" class="headerlink" title="bll层代码："></a>bll层代码：</h1><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> DataTable <span class="title">GetList</span>(<span class="params"><span class="built_in">int</span> category_id, <span class="built_in">int</span> page_index, <span class="built_in">int</span> page_size</span>)</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">return</span> dal.GetList(category_id, page_index, page_size);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="dal层代码："><a href="#dal层代码：" class="headerlink" title="dal层代码："></a>dal层代码：</h1><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> DataTable <span class="title">GetList</span>(<span class="params"><span class="built_in">int</span> category_id, <span class="built_in">int</span> page_index, <span class="built_in">int</span> page_size</span>)</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">string</span> sql = <span class="string">&quot;&quot;</span>;</span><br><span class="line">   sql = <span class="built_in">string</span>.Format(<span class="string">&quot;select * from 表名 order by id offset((&#123;1&#125; - 1) * &#123;2&#125;) rows  fetch next &#123;2&#125; rows only&quot;</span>, page_index, page_size);</span><br><span class="line">   <span class="keyword">return</span> DbHelperSQL.Query(sql).Tables[<span class="number">0</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="补充："><a href="#补充：" class="headerlink" title="补充："></a>补充：</h1><p>ashx引用到SerializationHelper.ToJsonString()方法，如下：</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> Newtonsoft.Json;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">SerializationHelper</span></span><br><span class="line">    &#123;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">string</span> <span class="title">ToJsonString</span>(<span class="params"><span class="built_in">object</span> obj</span>)</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">return</span> ToJsonString&lt;<span class="built_in">object</span>&gt;(obj);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">string</span> <span class="title">ToJsonString</span>&lt;<span class="title">T</span>&gt;(<span class="params">T obj</span>) <span class="keyword">where</span> T : <span class="keyword">class</span></span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">string</span> text = JsonConvert.SerializeObject(obj);</span><br><span class="line">            <span class="keyword">return</span> text;</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> C# </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C# </tag>
+            
+            <tag> Ajax </tag>
+            
+            <tag> ashx </tag>
+            
+            <tag> DataTable </tag>
+            
+            <tag> 下拉加载 </tag>
+            
+            <tag> 分页 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/post/4a17b156.html"/>
+      <url>/post/4a17b156.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
